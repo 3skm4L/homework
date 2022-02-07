@@ -1,0 +1,12 @@
+let pizzaPlace = "Mighty Dough";
+let numberOfToppings = 10;
+console.log("pizzaPlace: " + pizzaPlace);
+console.log("numberOfToppings: " + numberOfToppings);
+console.log(typeof pizzaPlace);
+console.log(typeof numberOfToppings);
+console.log(`The new restaurant is called ${pizzaPlace} and it offers ${numberOfToppings} different toppings.`)
+if (numberOfToppings < 10){
+    console.log("Quality, not quantity");
+} else {
+    console.log("A whole lot of pizza");
+}
